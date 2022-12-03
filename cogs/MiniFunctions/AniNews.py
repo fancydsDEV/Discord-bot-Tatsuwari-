@@ -22,7 +22,7 @@ class news(commands.Cog):
 
             headers = {
                 # YOUR KEY
-                "X-RapidAPI-Key": "9093768468msh6d66ff881e9e524p1d23ebjsnb28346341fac",
+                "X-RapidAPI-Key": "KEY",
                 "X-RapidAPI-Host": "anime-release.p.rapidapi.com"
             }
 
