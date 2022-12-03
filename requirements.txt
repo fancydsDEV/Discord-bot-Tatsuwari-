@@ -1,0 +1,10 @@
+disnake~=2.7.0
+numpy~=1.23.4
+requests~=2.28.1
+python-dotenv~=0.21.0
+Wikipedia-API
+youtube_dl~=2021.12.17
+googletrans~=3.1.0a0
+PyNaCl
+google-search-results~=2.4.1
+aiofiles
