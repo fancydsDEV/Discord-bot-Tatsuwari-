@@ -280,6 +280,7 @@ class Twenty:
         return True
 
 
+
 # Run The Twenty Game
 # def run():
 #     twenty = Twenty()
@@ -300,3 +301,6 @@ class Twenty:
 #
 #
 # run()  # Run The Game
+
+# CR: https://github.com/Z1R343L/libtwenty/blob/main/libtwenty/__init__.py
+# inspired By Z1R343L
