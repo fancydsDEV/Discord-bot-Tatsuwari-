@@ -41,7 +41,7 @@ class TwentyGame(commands.Cog):
             image.move(image.action['down'])
         elif inter.component.custom_id == "3":
             image.move(image.action['left'])
-        elif inter.component.custom_id == "quit" or image.lose():
+        elif inter.component.custom_id == "quit" or not image.lose():
             await inter.message.edit("You quited The game", delete_after=0)
             await inter.message.delete("You lose", delete_after=10)
 
@@ -56,7 +56,11 @@ class TwentyGame(commands.Cog):
             disnake.ui.Button(label=f"{image.get_score()}", style=disnake.ButtonStyle.blurple, custom_id="score",
                               disabled=True),
         ],
-        await inter.message.edit(file=file, attachments=[], components=components)
+        embed = disnake.Embed.from_dict({"color": 0x00ff00,
+                                         "timestamp": dt.datetime.now().isoformat(),
+                                         "image": {"url": f"attachment://{fn}"}})
+        file = disnake.File(image.render(bytesio=True), filename=fn)
+        await inter.message.edit(embed=embed, file=file, attachments=[], components=components)
 
 
 def setup(bot):
