@@ -43,7 +43,7 @@ class TwentyGame(commands.Cog):
             image.move(image.action['left'])
         elif inter.component.custom_id == "quit" or not image.lose():
             await inter.message.edit("You quited The game", delete_after=0)
-            await inter.message.delete("You lose", delete_after=10)
+            await inter.message.edit("You lose", delete_after=10)
 
         self.count += 1
         fn = f"{image.to_state_string()}{self.count}.png"
