@@ -218,7 +218,7 @@ class Twenty:
                             board[i][j - 1] = self.random_char
                             break
                 except IndexError:
-                    print("")
+                    pass
         return board
 
     # Move Char to right
@@ -238,7 +238,7 @@ class Twenty:
                             board[i][j + 1] = self.random_char
                             break
                 except IndexError:
-                    print("")
+                    pass
         return board
 
     # Move Char to down
@@ -280,7 +280,6 @@ class Twenty:
         return True
 
 
-
 # Run The Twenty Game
 # def run():
 #     twenty = Twenty()
@@ -301,6 +300,3 @@ class Twenty:
 #
 #
 # run()  # Run The Game
-
-# CR: https://github.com/Z1R343L/libtwenty/blob/main/libtwenty/__init__.py
-# inspired By Z1R343L
