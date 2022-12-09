@@ -8,8 +8,7 @@ class ChannelLock(commands.Cog):
 
     @commands.slash_command()
     @commands.has_permissions(manage_channels=True)
-    async def lockdown(self, inter: disnake.ApplicationCommandInteraction):
-        """Locks the channel"""
+    async def lock(self, inter: disnake.ApplicationCommandInteraction):
         """Locks the channel"""
         await inter.channel.set_permissions(inter.guild.default_role, send_messages=False)
         await inter.send(f"{inter.channel.mention} locked down.", delete_after=50)
