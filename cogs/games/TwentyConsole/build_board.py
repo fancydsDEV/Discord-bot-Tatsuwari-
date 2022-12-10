@@ -269,8 +269,6 @@ class Twenty:
         return True
 
     def get_score(self) -> int:
-        if self.score == 0:
-            return 0
         return self.score
 
     def lose(self) -> bool:
