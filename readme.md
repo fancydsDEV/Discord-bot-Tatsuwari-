@@ -27,3 +27,7 @@ pls install the requirements
 ```
 pip install requirements.txt
 ```
+
+<a href="https://top.gg/bot/993114054077972560">
+  <img src="https://top.gg/api/widget/owner/993114054077972560.svg">
+</a>
