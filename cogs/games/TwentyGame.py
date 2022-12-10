@@ -33,6 +33,10 @@ class TwentyGame(commands.Cog):
     @commands.Cog.listener("on_button_click")
     async def on_button_click(self, inter: disnake.ApplicationCommandInteraction):
         await inter.response.defer()
+        if inter.component.custom_id not in ["1", "2", "3", "quit"]:
+            # We filter out any other button presses except
+            # the components we wish to process.
+            return
         # "up": 0, "right": 1, "down": 2, "left": 3
         if inter.component.custom_id == "1":
             image.move(image.action['right'])
@@ -42,6 +46,7 @@ class TwentyGame(commands.Cog):
             image.move(image.action['left'])
         elif inter.component.custom_id == "quit" or not image.lose():
             await inter.message.edit("You quited The game", delete_after=0)
+            self.count = 0
             await inter.message.edit("You lose", delete_after=10)
 
         self.count += 1
