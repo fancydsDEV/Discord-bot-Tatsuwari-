@@ -31,3 +31,5 @@ pip install requirements.txt
 <a href="https://top.gg/bot/993114054077972560">
   <img src="https://top.gg/api/widget/993114054077972560.svg">
 </a>
+
+<a href"https://discord.com/oauth2/authorize?client_id=993114054077972560&permissions=0&scope=bot%20applications.commands">Invite  Bot link:</a> 
