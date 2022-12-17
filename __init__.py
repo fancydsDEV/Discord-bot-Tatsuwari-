@@ -40,6 +40,7 @@ bot.load_extension("cogs.ServerFunctions.ping")
 bot.load_extension("cogs.ServerFunctions.Ticket")
 bot.load_extension("cogs.ServerFunctions.ChannelLock")
 bot.load_extension("cogs.ServerFunctions.SlowMode")
+bot.load_extension("cogs.ServerFunctions.AutoMod")
 
 # CREATE CHANNEL
 bot.load_extension("cogs.CreateChannel.crate_voice_channel")
