@@ -5,6 +5,10 @@
   <a href="https://pypi.org/project/disnake/">
      <img alt="PyPI" src="https://img.shields.io/badge/disnake-v2.7.0-brightgreen">
   </a>
+  
+  ![dark-gamer134-elaina](https://user-images.githubusercontent.com/99350327/209368690-2cf01000-55ea-4793-a142-23fd955331ff.gif)
+
+
 
 # About Tatsuwari
 
