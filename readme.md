@@ -1,3 +1,11 @@
+# The important Requests for the bot
+
+![Python](https://img.shields.io/badge/Python-3.10-pink?style=for-the-badge)
+
+  <a href="https://pypi.org/project/disnake/">
+     <img alt="PyPI" src="https://img.shields.io/badge/disnake-v2.7.0-brightgreen">
+  </a>
+
 # About Tatsuwari
 
 I actually programmed Tatsuwari to improve my skills,\
