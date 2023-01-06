@@ -33,7 +33,7 @@ You have to subscribe to the api that I use so that you can also use it\
 ```
 link: https://rapidapi.com/hub
 ```
-it is for free!!,\
+is for free before you run this bot!!,\
 pls install the requirements
 
 ```
