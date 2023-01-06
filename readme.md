@@ -1,4 +1,4 @@
-# The important Requests for the bot
+# The Requests for the bot
 
 ![Python](https://img.shields.io/badge/Python-3.10-pink?style=for-the-badge)
 
