@@ -15,7 +15,7 @@ class City:
             url = "https://find-any-ip-address-or-domain-location-world-wide.p.rapidapi.com/iplocation"
             querystring = {"apikey": "873dbe322aea47f89dcf729dcc8f60e8"}
             headers = {
-                "X-RapidAPI-Key": "9093768468msh6d66ff881e9e524p1d23ebjsnb28346341fac",
+                "X-RapidAPI-Key": "API KEY",
                 "X-RapidAPI-Host": "find-any-ip-address-or-domain-location-world-wide.p.rapidapi.com"
             }
             response = requests.request("GET", url, headers=headers, params=querystring)
