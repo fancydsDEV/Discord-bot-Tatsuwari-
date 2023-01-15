@@ -4,7 +4,7 @@ import requests
 import datetime
 
 
-class meme_cog(commands.Cog):
+class MemeCog(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
@@ -19,7 +19,7 @@ class meme_cog(commands.Cog):
         querystring = {"genre": "memes", "type": "top"}
 
         headers = {
-            "X-RapidAPI-Key": "YOUR APP KEY",
+            "X-RapidAPI-Key": "YOUR API KEY",
             "X-RapidAPI-Host": "memes9.p.rapidapi.com"
         }
 
@@ -47,4 +47,4 @@ class meme_cog(commands.Cog):
 
 
 def setup(bot: commands.bot):
-    bot.add_cog(meme_cog(bot))
+    bot.add_cog(MemeCog(bot))
